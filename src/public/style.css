@@ -1,0 +1,67 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color:rgb(250, 235, 215);
+}
+.navbar-brand{
+  font-weight: 400;
+  font-size: 24px;
+}
+.navbar{
+  width: auto;
+  font-size: 18px;
+  background-color: rgb(34, 55, 55);
+  margin: 0 -1rem 0 -1rem;
+}
+form{
+  padding: 5px;
+}
+.mb-4{
+  border-radius: 20px;
+}
+.card-title{
+  font-weight: 400;
+  font-size: 24px;
+}
+.card-header{
+  background-color: rgb(34, 55, 55);
+}
+.cardp{
+  padding: 25px;
+}
+
+.btn{
+  background-color: rgb(30, 171, 171);
+  outline-color: rgb(0, 0, 0);
+  color: white;
+}
+/* Convert to buttons */
+.hm-links {
+  background-color: rgb(30, 171, 171);
+  border: 1px solid #000000;
+  padding: 15px 25px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+/* hover-home */
+.hm-links:hover {
+  background-color: rgb(37, 89, 89);
+  text-decoration: none;
+  color: #ffffff;
+}
+.table{
+  width: 100%;
+}
